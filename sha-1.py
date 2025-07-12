@@ -6,7 +6,7 @@ hash = hashlib.sha1(string_to_hash.encode()).hexdigest()
 print(hash)
 # %%
 import hashlib
-
+# https://shattered.io/
 def check_if_files_are_different():
     with open("./files/shattered-1.pdf", "rb") as f1, open("./files/shattered-2.pdf", "rb") as f2:
         if f1.read() != f2.read():
