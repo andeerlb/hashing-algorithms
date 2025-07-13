@@ -1,0 +1,2 @@
+This is a test file for CRC32 calculation.
+It contains multiple lines of data.
