@@ -6,7 +6,7 @@ def generate_sha3_hash(input_string):
 
 string_to_hash = "Anderson"
 hash_result = generate_sha3_hash(string_to_hash)
-print(f"hash256: {hash_result}")
+print(f"hash224: {hash_result}")
 
 # %%
 import hashlib
@@ -25,7 +25,7 @@ def generate_sha3_hash(input_string):
 
 string_to_hash = "Anderson"
 hash_result = generate_sha3_hash(string_to_hash)
-print(f"hash256: {hash_result}")
+print(f"hash384: {hash_result}")
 # %%
 import hashlib
 
@@ -34,5 +34,5 @@ def generate_sha3_hash(input_string):
 
 string_to_hash = "Anderson"
 hash_result = generate_sha3_hash(string_to_hash)
-print(f"hash256: {hash_result}")
+print(f"hash512: {hash_result}")
 # %%
